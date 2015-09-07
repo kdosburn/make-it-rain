@@ -1,0 +1,19 @@
+{
+  "name": "make-it-rain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "node-yaml-config": "0.0.3",
+    "q": "^1.4.1",
+    "request": "^2.61.0",
+    "underscore": "^1.8.3"
+  }
+}
