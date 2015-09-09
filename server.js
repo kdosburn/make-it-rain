@@ -52,7 +52,7 @@ app.post('/celery', function(req,res,next) {
   var body = req.body || {};
 
   if (body.type === 'order.charge.succeeded') {
-    var amount = '$' + body.data.amount;
+    var amount = '$' + body.data.paid/100;
 
     getRandomGIF().then(function(gif) {
       return postToSlack(amount, gif);
